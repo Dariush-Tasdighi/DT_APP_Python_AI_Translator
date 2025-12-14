@@ -265,16 +265,14 @@ if __name__ == "__main__":
 
     try:
         main()
-
-        print()
         print("Finished Successfully.")
 
     except KeyboardInterrupt:
         pass
 
-    except Exception as e:
+    except Exception as error:
         print()
-        print(f"[-] {e}")
+        print(f"[-] {error}!")
 
     print()
     print("." * 50)

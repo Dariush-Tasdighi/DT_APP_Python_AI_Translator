@@ -63,8 +63,8 @@ def main() -> None:
 
     os.system(command="cls" if os.name == "nt" else "clear")
 
-    for index, model in enumerate(MODELS):
-        print(f"[{index + 1}]: {model}")
+    for index, model in enumerate(MODELS, start=1):
+        print(f"[{index}]: {model}")
 
         messages: list[dict] = []
         messages.append(SYSTEM_MESSAGE)
@@ -109,4 +109,6 @@ if __name__ == "__main__":
         pass
 
     except Exception as error:
-        print(f"[-] {error}\n")
+        print(f"[-] {error}!")
+
+    print()

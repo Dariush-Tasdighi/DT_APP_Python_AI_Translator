@@ -1,5 +1,5 @@
 """
-Dariush Tasdighi LLM utility module. Version: 2.2
+Dariush Tasdighi LLM utility module.
 """
 
 import os
@@ -11,6 +11,8 @@ EXIT_COMMANDS: list[str] = [
     "exit".strip().lower(),
     "quit".strip().lower(),
 ]
+
+VERSION: str = "2.2"
 
 ROLE_USER: str = "user".strip().lower()
 ROLE_SYSTEM: str = "system".strip().lower()

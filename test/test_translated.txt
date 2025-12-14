@@ -8,3 +8,12 @@ Translated: Paragraph 6
 Translated: Paragraph 7
 Translated: Paragraph 8
 Translated: Paragraph 9
+Translated: Paragraph 1
+Translated: Paragraph 2
+Translated: Paragraph 3
+Translated: Paragraph 4
+Translated: Paragraph 5
+Translated: Paragraph 6
+Translated: Paragraph 7
+Translated: Paragraph 8
+Translated: Paragraph 9

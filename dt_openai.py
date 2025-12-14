@@ -1,11 +1,12 @@
 """
-Dariush Tasdighi OpenAI module. Version: 1.2
+Dariush Tasdighi OpenAI module.
 """
 
 from openai import OpenAI
 import dt_llm_utility as utility
 from openai.types.chat import ChatCompletion
 
+VERSION: str = "1.2"
 TEMPERATURE: float = 0.7
 KEY_NAME_OPENAI_API_KEY: str = "OPENAI_API_KEY"
 BASE_URL: str = "https://openrouter.ai/api/v1".strip().lower()

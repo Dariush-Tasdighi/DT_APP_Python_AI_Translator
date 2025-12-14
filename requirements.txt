@@ -1,0 +1,6 @@
+pip
+rich
+pypdf
+openai
+cryptography
+python-dotenv

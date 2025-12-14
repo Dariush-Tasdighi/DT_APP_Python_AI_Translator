@@ -197,26 +197,26 @@ def main():
     # **************************************************
     # #  Test
     # **************************************************
-    # for index, paragraph in enumerate(paragraphs):
-    #     print(f"({index + 1})")
+    # for index, paragraph in enumerate(paragraphs, start=1):
+    #     print(f"({index})")
     #     print(f"[{paragraph}]")
     #     print("." * 50)
 
-    # exit()
+    # exit()  # Test
     # **************************************************
 
     # **************************************************
     # #  Test
     # **************************************************
-    # for index, paragraph in enumerate(paragraphs):
+    # for index, paragraph in enumerate(paragraphs, start=1):
     #     print("=" * 50)
-    #     print(f"({index + 1})")
+    #     print(f"({index})")
 
     #     translated_paragraph: str = translate_paragraph(
     #         paragraph=paragraph,
     #     )
 
-    # exit()
+    # exit()  # Test
     # **************************************************
 
     # **************************************************
@@ -262,9 +262,9 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         pass
 
-    except Exception as e:
+    except Exception as error:
         print()
-        print(f"[-] {e}")
+        print(f"[-] {error}!")
 
     print()
     print("." * 50)
